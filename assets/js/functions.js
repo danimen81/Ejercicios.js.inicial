@@ -31,9 +31,9 @@ function grados(){
     var num1 = parseInt(prompt("Ingrese Grados Celsius"));
 var kelvin = (num1 + 273.15);
 var fahreng = ((num1 * (9/5))+32);
-var miVariable1 = num1 + " Grados celsius, corresponde a: " + kelvin + "Grados Kelvin";
+var miVariable1 = num1 + " Grados celsius, corresponde a: " + kelvin + " Grados Kelvin";
 document.getElementById("miParrafo5").innerHTML = miVariable1;
-var miVariable2 = num1 + " Grados Celsius, corresponde a: " + fahreng +"Grados Fahrenheit";
+var miVariable2 = num1 + " Grados Celsius, corresponde a: " + fahreng +" Grados Fahrenheit";
 document.getElementById("miParrafo6").innerHTML = miVariable2;
 
 }
