@@ -71,3 +71,13 @@ document.getElementById("miParrafo8").innerHTML = miVariable2;
 var numeroso = "Los números ingresados fueron: "+ num1+"-"+ num2+"-" + num3+"-" +num4+"-" + num5;
 document.getElementById("miParrafo9").innerHTML = numeroso;
 }
+
+function dias(){
+  var num1 = parseInt(prompt("Ingrese una Cantidad de Días"));
+var anios = Math.floor (num1 /365);
+var semanas = Math.floor ((num1 % 365) / 7);
+var numDias = num1 - ((anios * 365) + (semanas * 7));
+var miVariable1 = num1 + " Dias, que equivalen a " + anios +" Años, "+ semanas + " Semanas, y "+ numDias +" Dias Restantes";
+document.getElementById("miParrafo10").innerHTML = miVariable1;
+
+}

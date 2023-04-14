@@ -1,34 +1,63 @@
 *{
-    margin:0;
-    padding:0;
+    margin:4;
+    padding:4;
     
 }
 body {
-    background-color: bisque;
+    background-color: rgb(182, 165, 143);
 }
 h1{
     text-decoration:underline;
-    border-color:rgb(11, 107, 75);
+    border:4px solid;
+    border-color:rgb(67, 12, 233);
     padding:10px;
     background-color: rgb(214, 165, 100);
     font-size: 4rem;
-    font-weight: 200;
+    text-align:center;
+    border-radius: 30px;
 }
-h2 {
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 button {
-    padding:5px;
-    margin: 5px;
-    border:solid;
-    border-color: rgb(230, 15, 15);
+    padding:10px;
+    margin: 10px;
+    border:solid rgb(226, 9, 9);
     font-weight: 300;
     color:rgb(41, 32, 216);
     background-color: rgba(74, 210, 220, 0.5);
-    font-size:x-large;
+    font-size:1.5rem;
     font-style:oblique;
-    border-radius:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:15px;
 
 
+}
+.container{
+    width: 100%;
+    height: auto;
+    border:1px solid blue;
+    border-radius: 20px;
+    margin: 5px;
+
+   
+}
+.container2{
+    width: 100%;
+    height : auto;
+    border:1px solid blue;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin:5px;
+ 
+
+
+
+}
+footer{
+    width:100%;
+    margin: auto;
+    height : 40px;
+    background-color: black;
+    color:beige;
+    text-align: center;
 }
