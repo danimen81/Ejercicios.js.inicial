@@ -39,8 +39,8 @@ document.getElementById("miParrafo6").innerHTML = miVariable2;
 }
 
 function varios() {
-    var num1 = parseInt(prompt("Ingrese el primer Número"));
-    var num2 = parseInt(prompt("Ingrese el Segundo Número"));
+    var num1 = parseInt(prompt("Ingrese el primer Número mayor a Cero"));
+    var num2 = parseInt(prompt("Ingrese el Segundo Número, Mayor a Cero y diferente al Nº Anterior"));
     var resultado1 = num1 + num2;
     var resultado2 = num1 - num2;
     var resultado3 = num1 * num2;
